@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article-signup</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,700&family=Cookie&family=Crimson+Text:ital@1&family=Dancing+Script:wght@600&family=Edu+SA+Beginner:wght@500&family=Lobster&family=Lora:ital@1&family=Oswald&family=Pacifico&family=Rubik&display=swap" rel="stylesheet">
+</head>
+<style>
+    body{
+        text-align: center;
+        padding-top: 4%;
+        font-family: 'Crimson Text', serif;
+        color: azure;
+        background-color: rgb(187, 135, 52);
+    }
+    input{
+        background-color: rgb(8, 55, 61);
+        border: 2px solid black;
+        border-radius: 7px;
+    }
+    .whole{
+        padding: 0% 30% 0% 30%;
+    }
+    .signup{
+        margin: 3% 40% 0% 40%;
+        font-size: large;
+    }
+    .signup:hover{
+        background-color: rgb(39, 15, 15);
+        color: rgb(68, 254, 254);
+    }
+</style>
+<body>
+    <div class="whole">
+        <div class="whole-1 bg-cyan-600 border-2 rounded-3xl">
+            <div class="heading text-4xl font-extrabold py-3">SIGN UP HERE</div>
+            <div class="name">
+                <div class="name-1 py-3">FIRST NAME : </div>
+                <div class="name-2 py-1"><input type="text" name="name" value="firstname" required></div>
+            </div>
+            <div class="lname">
+                <div class="lname py-3">LAST NAME : </div>
+                <div class="lname-2 py-1"><input type="text" name="lname" value="last name" required></div>
+            </div>
+            <div class="birth">
+                <div class="birth-1 py-3">DATE OF BIRTH : </div>
+                <div class="birth-2 py-1"><input type="date" name="datetime" required></div>
+            </div>
+            <div class="email">
+                <div class="email-1 py-3">EMAIL : </div>
+                <div class="email-2 py-1"><input type="email" id="email" value="Email" required></div>
+            </div>
+            <div class="password">
+                <div class="password-1 py-3">PASSWORD : </div>
+                <div class="password-2 py-1"><input type="password" id="password" required></div>
+            </div>
+            <div class="signup py-3 border-2 rounded-3xl font-bold"><a href="../index.html"><button>SIGN UP</button></a></div><br>
+        </div>
+    </div>
+</body>
+</html>
